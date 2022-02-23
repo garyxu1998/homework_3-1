@@ -189,7 +189,7 @@ app.layout = html.Div([
     # Submit button for the trade
     html.Button('Trade', id='trade-button', n_clicks=0),
 
-    html.H1("Webhook test 3")
+    html.H1("Webhook test 4")
 ])
 
 
