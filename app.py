@@ -254,7 +254,7 @@ def update_candlestick_graph(n_clicks, currency_string, what_to_show,
         whatToShow=what_to_show,
         useRTH=(useRTH_input == 'True')
     )
-    print(cph)
+
     # # # Make the candlestick figure
     fig = go.Figure(
         data=[
