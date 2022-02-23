@@ -9,6 +9,7 @@ import pandas as pd
 
 # Make a Dash app!
 app = dash.Dash(__name__)
+server = app.server
 # ************* not sure if there should be an 's' or not ***********
 bar_sizes = ['1 sec',
              '5 secs',
