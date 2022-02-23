@@ -12,8 +12,6 @@ app = dash.Dash(__name__)
 server = app.server
 # ************* not sure if there should be an 's' or not ***********
 
-# *** TEST WEBHOOK ***
-
 bar_sizes = ['1 sec',
              '5 secs',
              '10 secs',
@@ -191,6 +189,7 @@ app.layout = html.Div([
     # Submit button for the trade
     html.Button('Trade', id='trade-button', n_clicks=0)
 
+    html.H3('Webhook OK!')
 ])
 
 
