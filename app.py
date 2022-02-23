@@ -187,9 +187,9 @@ app.layout = html.Div([
     # Numeric input for the trade amount
     dcc.Input(id='trade-amt', value='20000', type='number'),
     # Submit button for the trade
-    html.Button('Trade', id='trade-button', n_clicks=0)
+    html.Button('Trade', id='trade-button', n_clicks=0),
 
-    html.H3('Webhook OK!')
+    html.H1("Webhook test 3")
 ])
 
 
